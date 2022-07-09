@@ -9,7 +9,7 @@ var port = process.env.PORT || 3999;
 
 // PRUEBA DE CONEXION A LA BD
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://pruebas123:pruebas123@cluster0.gh9uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+mongoose.connect('mongodb+srv://CesarC:12345@cluster0.mgfgs.mongodb.net/?retryWrites=true&w=majority'
                 ,{ useNewUrlParser: true})
                 .then(
                     ()=>{
