@@ -3,7 +3,7 @@
 //const res = require("express/lib/response");
 var client = require("../database/db");
 var db = client.db("clinicabd");
-
+ 
 var controller = {
     // listar
     list: function (req, res) {

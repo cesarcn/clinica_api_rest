@@ -6,7 +6,7 @@ var express = require("express");
 var ReservarController = require("../controller/reservar");
 
 var router = express.Router();
-
+ 
 //Ruta para reservar
 router.get('/reserva', ReservarController.list);
 router.get('/reserva/:id', ReservarController.find);

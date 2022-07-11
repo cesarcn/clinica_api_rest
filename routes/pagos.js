@@ -2,7 +2,7 @@
 
 var express = require('express');
 //const { model } = require('mongoose');
-
+ 
 
 var PagosController = require('../controller/pagos');
 

@@ -4,7 +4,7 @@ var express = require('express');
 
 var ReporteController = require('../controller/reporte');
 
-
+ 
 var router = express.Router();
 
 // RUTAS PARA REPORTE DE PRODUCTOS POR CATEGORIA

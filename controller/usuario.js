@@ -2,7 +2,7 @@
 
 var client = require("../database/db");
 var db = client.db("clinicabd");
-
+ 
 var controller = {
     //LISTAR
     list: function (req, res) {

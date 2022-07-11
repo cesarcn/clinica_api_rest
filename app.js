@@ -6,7 +6,7 @@ var bodyParser = require('body-parser')
 
 // USANDO LA DEPENDENCIA EXPRESS
 var app = express();
-
+ 
 // CARGA DE ARCHIVOS DE RUTA
 var usuario_routes = require('./routes/usuario');
 var reporte_routes = require('./routes/reporte');

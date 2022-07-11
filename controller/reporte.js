@@ -1,5 +1,5 @@
 'use strict'
-
+ 
 var client = require("../database/db");
 var db = client.db("clinicabd");// NOMBRE DE LA BASE DE DATOS
 
